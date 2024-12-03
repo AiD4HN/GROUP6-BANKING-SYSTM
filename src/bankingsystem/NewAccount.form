@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bankingsystem.NewAccount">
+  <grid id="27dc6" binding="NewAccount" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="706" height="654"/>
+    </constraints>
+    <properties>
+      <background color="-9367200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e557b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="931f4" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ed9fc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Username:"/>
+                </properties>
+              </component>
+              <component id="1a5b2" class="javax.swing.JTextField" binding="tfUsername">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="191aa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Gender:"/>
+                </properties>
+              </component>
+              <component id="b3e2f" class="javax.swing.JComboBox" binding="cbGender">
+                <constraints>
+                  <grid row="6" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Male"/>
+                    <item value="Female"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b8ecb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Security Question:"/>
+                </properties>
+              </component>
+              <component id="ca8fc" class="javax.swing.JComboBox" binding="cbSecQuestion">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="What was the name of your first school?"/>
+                    <item value="What is the name of your favorite childhood toy?"/>
+                    <item value="What was the make and model of your first car?"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="fc29c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Answer:"/>
+                </properties>
+              </component>
+              <component id="9378c" class="javax.swing.JTextField" binding="tfAnswer">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4cec2" class="javax.swing.JButton" binding="openAccountBtn">
+                <constraints>
+                  <grid row="9" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <text value="Open Account"/>
+                </properties>
+              </component>
+              <component id="a357d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Create PIN:"/>
+                </properties>
+              </component>
+              <component id="8a010" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Confirm PIN:"/>
+                </properties>
+              </component>
+              <component id="341f0" class="javax.swing.JTextField" binding="tfPin">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="ee1ff" class="javax.swing.JTextField" binding="tfConfirmPin">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="37fc4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Lastname:"/>
+                </properties>
+              </component>
+              <component id="6f708" class="javax.swing.JTextField" binding="tfLastname">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="98149" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Firstname:"/>
+                </properties>
+              </component>
+              <component id="c57ad" class="javax.swing.JTextField" binding="tfFirstname">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="bf5d8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Birthday:"/>
+                </properties>
+              </component>
+              <component id="ce362" class="javax.swing.JTextField" binding="tfBirthday">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                  <toolTipText value="MM/DD/YYYY"/>
+                </properties>
+              </component>
+              <component id="a7086" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="3" row-span="8" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="assists/new-account.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="34480" class="javax.swing.JButton" binding="checkUsernameBtn">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Check Username"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="44c3d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <text value="Open Bank Account"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="65a48" class="javax.swing.JButton" binding="exitBtn">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <component id="faa03" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="assists/bank-building.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5de53" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-458764"/>
+          <font name="Roboto" size="36" style="1"/>
+          <foreground color="-458764"/>
+          <text value="MAZE BANK"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
