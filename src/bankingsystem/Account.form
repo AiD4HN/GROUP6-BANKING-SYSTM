@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bankingsystem.Account">
+  <grid id="27dc6" binding="Account" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="591" height="474"/>
+    </constraints>
+    <properties>
+      <background color="-9367200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="63c13" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6d6ac" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <text value="Account"/>
+            </properties>
+          </component>
+          <grid id="82e99" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e4c94" class="javax.swing.JLabel" binding="lbl_accountName">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Account Name:"/>
+                </properties>
+              </component>
+              <component id="173a1" class="javax.swing.JLabel" binding="lbl_accountNumber">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Account Number:"/>
+                </properties>
+              </component>
+              <component id="5726d" class="javax.swing.JLabel" binding="lbl_accountBalance">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="Account Balance"/>
+                </properties>
+              </component>
+              <component id="ddbe4" class="javax.swing.JLabel" binding="displayAccountName">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <text value="000000000"/>
+                </properties>
+              </component>
+              <component id="bf4d6" class="javax.swing.JLabel" binding="displayAccountNumber">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <text value="000000000"/>
+                </properties>
+              </component>
+              <component id="391e6" class="javax.swing.JButton" binding="depositBtn">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <icon value="assists/wallet.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="93baa" class="javax.swing.JButton" binding="withdrawBtn">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <icon value="assists/withdraw.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="92755" class="javax.swing.JButton" binding="transactionBtn">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                  <icon value="assists/list.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="39009" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="DEPOSIT"/>
+                </properties>
+              </component>
+              <component id="67c3a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="WITHDRAW"/>
+                </properties>
+              </component>
+              <component id="7937e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <text value="TRANSACTION"/>
+                </properties>
+              </component>
+              <component id="d221a" class="javax.swing.JComboBox" binding="cmb_account">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Savings Account"/>
+                    <item value="Checking Account"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="9abea" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="assists/cuba-peso-currency-symbol (1).png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="227ab" class="javax.swing.JLabel" binding="lbl_amount">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <text value="000000000"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="2bd29" class="javax.swing.JButton" binding="exitBtn">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <component id="6c738" class="javax.swing.JLabel" binding="bankIcon">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="assists/bank-building.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d2b62" class="javax.swing.JLabel" binding="bankName">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="36" style="1"/>
+          <foreground color="-1"/>
+          <text value="MAZE BANK"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
